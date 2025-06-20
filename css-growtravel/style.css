@@ -15,6 +15,11 @@ header{
     display: inline-block;
     margin: 15px 20px;
 }
+.lado-a-lado:hover {
+    text-decoration: underline;
+    color: white;
+    cursor: pointer;
+}
 .uma-pessoa{
     width: 300px;
     display: block;
@@ -39,6 +44,10 @@ button{
     color: #e0dbdb;
     margin-top: 20px;
 }
+button:hover {
+    cursor: pointer;
+    font-weight: bold;
+}
 .varias-pessoas{
     width: 300px;
     display: block;
@@ -56,4 +65,24 @@ hr{
 footer{
     text-align: center;
     color:#7a7878
+}
+table, td, th {
+    border: 1px solid #e0dbdb;
+    border-collapse: collapse;
+    text-align: center;
+}
+td, th{
+    padding: 12px;
+}
+table{
+    width: 70%;
+    margin: 12px auto;
+}
+a#botao-flutuante {
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+}
+a#botao-flutuante > img {
+    width: 50px;
 }
